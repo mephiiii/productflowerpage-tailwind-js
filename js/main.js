@@ -65,16 +65,16 @@ let planet = document.querySelector("div.products");
 planet.innerHTML = "";
 planets.forEach((elem) => {
   planet.innerHTML += `
-    <div class="boxpro">
-        <img src="${elem.img}" alt="گل">
-        <div class="infpro">
-        <span>${elem.name}</span>
-        <p>${elem.discription}</p>
-        <span>${elem.price} $</span>
-        <a href="#">Buy it now</a>
-        </div>
+  <div class="w-[250px] border border-white rounded-[16px]  overflow-hidden flex flex-col justify-end bg-[rgba(255,255,255,0.012)]  backdrop-blur-[10px] ">
+    <img src="${elem.img}" alt="گل" class="w-[250px] my-auto">
+    <div class="bg-[#292524] flex flex-col gap-[10px] justify-center items-center p-[10px]">
+    <span>${elem.name}</span>
+    <p class="text-center text-sm">${elem.discription}</p>
+    <span class="font-[700]">${elem.price} $</span>
+    <a href="#" class="px-[10px] py-[5px] text-center rounded-[16px] bg-[#334039]">Buy it now</a>
     </div>
-    `;
+  </div>
+  `;
 });
 
 // buttoms filter
@@ -101,14 +101,14 @@ filter1.addEventListener("click", function () {
   planet.innerHTML = "";
   lowest.forEach((elem) => {
     planet.innerHTML += `
-    <div class="boxpro">
-        <img src="${elem.img}" alt="گل">
-        <div class="infpro">
-        <span>${elem.name}</span>
-        <p>${elem.discription}</p>
-        <span>${elem.price} $</span>
-        <a href="#">Buy it now</a>
-        </div>
+    <div class="w-[250px] border border-white rounded-[16px]  overflow-hidden flex flex-col justify-end bg-[rgba(255,255,255,0.012)]  backdrop-blur-[10px] ">
+      <img src="${elem.img}" alt="گل" class="w-[250px] my-auto">
+      <div class="bg-[#292524] flex flex-col gap-[10px] justify-center items-center p-[10px]">
+      <span>${elem.name}</span>
+      <p class="text-center text-sm">${elem.discription}</p>
+      <span class="font-[700]">${elem.price} $</span>
+      <a href="#" class="px-[10px] py-[5px] text-center rounded-[16px] bg-[#334039]">Buy it now</a>
+      </div>
     </div>
     `;
   });
@@ -130,14 +130,14 @@ filter2.addEventListener("click", function () {
   planet.innerHTML = "";
   highest.forEach((elem) => {
     planet.innerHTML += `
-    <div class="boxpro">
-        <img src="${elem.img}" alt="گل">
-        <div class="infpro">
-        <span>${elem.name}</span>
-        <p>${elem.discription}</p>
-        <span>${elem.price} $</span>
-        <a href="#">Buy it now</a>
-        </div>
+    <div class="w-[250px] border border-white rounded-[16px]  overflow-hidden flex flex-col justify-end bg-[rgba(255,255,255,0.012)]  backdrop-blur-[10px] ">
+      <img src="${elem.img}" alt="گل" class="w-[250px] my-auto">
+      <div class="bg-[#292524] flex flex-col gap-[10px] justify-center items-center p-[10px]">
+      <span>${elem.name}</span>
+      <p class="text-center text-sm">${elem.discription}</p>
+      <span class="font-[700]">${elem.price} $</span>
+      <a href="#" class="px-[10px] py-[5px] text-center rounded-[16px] bg-[#334039]">Buy it now</a>
+      </div>
     </div>
     `;
   });
@@ -163,14 +163,14 @@ filter3.addEventListener("click", function () {
   (planet.innerHTML = ""),
     sreach.forEach((elem) => {
       planet.innerHTML += `
-    <div class="boxpro">
-        <img src="${elem.img}" alt="گل">
-        <div class="infpro">
-        <span>${elem.name}</span>
-        <p>${elem.discription}</p>
-        <span>${elem.price} $</span>
-        <a href="#">Buy it now</a>
-        </div>
+   <div class="w-[250px] border border-white rounded-[16px]  overflow-hidden flex flex-col justify-end bg-[rgba(255,255,255,0.012)]  backdrop-blur-[10px] ">
+      <img src="${elem.img}" alt="گل" class="w-[250px] my-auto">
+      <div class="bg-[#292524] flex flex-col gap-[10px] justify-center items-center p-[10px]">
+      <span>${elem.name}</span>
+      <p class="text-center text-sm">${elem.discription}</p>
+      <span class="font-[700]">${elem.price} $</span>
+      <a href="#" class="px-[10px] py-[5px] text-center rounded-[16px] bg-[#334039]">Buy it now</a>
+      </div>
     </div>
     `;
     });
@@ -196,14 +196,14 @@ filter4.addEventListener("click", function () {
   (planet.innerHTML = ""),
     sreach.forEach((elem) => {
       planet.innerHTML += `
-    <div class="boxpro">
-        <img src="${elem.img}" alt="گل">
-        <div class="infpro">
-        <span>${elem.name}</span>
-        <p>${elem.discription}</p>
-        <span>${elem.price} $</span>
-        <a href="#">Buy it now</a>
-        </div>
+    <div class="w-[250px] border border-white rounded-[16px]  overflow-hidden flex flex-col justify-end bg-[rgba(255,255,255,0.012)]  backdrop-blur-[10px] ">
+      <img src="${elem.img}" alt="گل" class="w-[250px] my-auto">
+      <div class="bg-[#292524] flex flex-col gap-[10px] justify-center items-center p-[10px]">
+      <span>${elem.name}</span>
+      <p class="text-center text-sm">${elem.discription}</p>
+      <span class="font-[700]">${elem.price} $</span>
+      <a href="#" class="px-[10px] py-[5px] text-center rounded-[16px] bg-[#334039]">Buy it now</a>
+      </div>
     </div>
     `;
     });
@@ -229,14 +229,14 @@ filter5.addEventListener("click", function () {
   (planet.innerHTML = ""),
     sreach.forEach((elem) => {
       planet.innerHTML += `
-    <div class="boxpro">
-        <img src="${elem.img}" alt="گل">
-        <div class="infpro">
-        <span>${elem.name}</span>
-        <p>${elem.discription}</p>
-        <span>${elem.price} $</span>
-        <a href="#">Buy it now</a>
-        </div>
+    <div class="w-[250px] border border-white rounded-[16px]  overflow-hidden flex flex-col justify-end bg-[rgba(255,255,255,0.012)]  backdrop-blur-[10px] ">
+      <img src="${elem.img}" alt="گل" class="w-[250px] my-auto">
+      <div class="bg-[#292524] flex flex-col gap-[10px] justify-center items-center p-[10px]">
+      <span>${elem.name}</span>
+      <p class="text-center text-sm">${elem.discription}</p>
+      <span class="font-[700]">${elem.price} $</span>
+      <a href="#" class="px-[10px] py-[5px] text-center rounded-[16px] bg-[#334039]">Buy it now</a>
+      </div>
     </div>
     `;
     });

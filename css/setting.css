@@ -15,25 +15,27 @@
 }
 
 /* header mune buttom */
-.menu {
+/* .menu {
   .line {
     transition: 500ms;
   }
   ul {
-    background: rgba(255, 255, 255, 0.012); /* رنگ شفاف */
-    backdrop-filter: blur(10px); /* افکت بلور */
-    -webkit-backdrop-filter: blur(10px); /* برای ساپورت Safari */
+    background: rgba(255, 255, 255, 0.012); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 0 10px gray;
   }
-}
+} */
+
 .menubtn {
   display: none;
 }
-.page {
+
+/* .page {
   background-image: url(../img/page.1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .borderfiler {
   border-top: 1px solid whitesmoke;
@@ -45,7 +47,7 @@
   border-bottom: 1px solid whitesmoke;
 }
 
-.boxpro {
+/* .boxpro {
   width: 250px;
   border: 1px solid white;
   border-radius: 16px;
@@ -53,9 +55,9 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background: rgba(255, 255, 255, 0.012); /* رنگ شفاف */
-  backdrop-filter: blur(10px); /* افکت بلور */
-  -webkit-backdrop-filter: blur(10px); /* برای ساپورت Safari */
+  background: rgba(255, 255, 255, 0.012);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
   img {
     width: 250px;
     margin: auto 0;
@@ -82,7 +84,7 @@
       background-color: #334039;
     }
   }
-}
+} */
 
 @media screen and (min-width: 1200px) {
   footer .s1 {
