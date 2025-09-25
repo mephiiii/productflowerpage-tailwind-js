@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flowershop</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/setting.css">
+    <link rel="stylesheet" href="./remixicon/fonts/remixicon.css">
+  </head>
+  <body class=" bg-black">
+    <!-- class="bg-purple-300 sm:bg-blue-300 md:bg-green-300 lg:bg-yellow-300 xl:bg-red-300 " -->
+    <main class="">
+      <div class="root relative text-white">
+        <!-- header section -->
+        <header class="bg-black flex  wilkysta">
+          <nav class="fixed top-4 flex justify-around items-center  w-full z-50 text-[20px]">
+            <div class="menu md:hidden relative">
+              <div class="menuicon flex  flex-col gap-[10px]">
+                <div class="line w-[32px] h-[2px] bg-white"></div>
+                <div class="line w-[32px] h-[2px] bg-white"></div>
+                <div class="line w-[32px] h-[2px] bg-white"></div>
+              </div>
+              <ul class="submenu menubtn absolute top-8 left-[-50px] flex md:hidden flex-col gap-[8px] items-start w-[90vw] h-[100vh]">
+                <li class="px-[50px] py-[20px]"><a href="#">Catalog</a></li>
+                <li class="px-[50px] py-[20px]"><a href="#">Blog</a></li>
+                <li class="px-[50px] py-[20px]"><a href="#">About us</a></li>
+                <li class="px-[50px] py-[20px]"><a href="#">Product</a></li>
+                <li class="px-[50px] py-[20px]"><a href="#">Delivery</a></li>
+              </ul>
+            </div>
+            <div class="logo">
+              <a href="#"><img src="./img/header.logo.png" alt="logo" class="w-[70px]"></a>
+            </div>
+            <ul class="hidden md:flex gap-[8px] justify-around items-center w-[45%]">
+              <li><a href="#">Catalog</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Delivery</a></li>
+            </ul>
+            <div class="shop flex items-center">
+              <a href="#"><img src="./img/header.cart.png" alt="cart shop" class="w-[80px]"></a>
+              <a href="#"><span class="hidden md:flex">Go to cart</span></a>
+            </div>
+          </nav>
+        </header>
+        <!-- banner section -->
+        <div class="banner relative flex justify-end w-[100%] xl:flex ">
+          <div class="img">
+            <img src="./img/banner1.jpg" alt="banner flowershop" class="hidden md:block h-[80vh]">
+            <img src="./img/banner1.mobile.jpg" alt="banner flowershop" class="hidden sm:block md:hidden w[100%] h-[80vh]">
+            <img src="./img/banner1.mobile.jpg" alt="banner flowershop" class="sm:hidden w[100%] h-[80vh]">
+          </div>
+          <div class="text absolute bottom-[30%] left-[5%] sm:left-[10%] xl:left-[16%] flex flex-col gap-5 px-[20px]">
+            <h1 class="uppercase text-[50px] md:text-[80px] font-bold wilkysta">planet store</h1>
+            <p class="text-[18px] sm:text-[20px] md:text-[24px] w-[300px] sm:w-[520px]">Order a plant and get a checklist with a detailed description of the rules of plant care</p>
+            <a href="#" class="inline-block w-[200px] font-bold text-center py-[5px] px-[10px] bg-[#334039] border border-white rounded-[16px]">Go to the catalog</a>
+          </div>
+        </div>
+        <!-- product section -->
+        <div class="page py-[50px] flex flex-col gap-[10px] lg:gap-[40px] justify-center">
+          <!--  buttoms filter   -->
+          <div class="flex items-end text-[16px] lg:text-[18px] lg:w-8/12 my-[50px] mx-auto wilkysta">
+            <div class="btnlowest py-2 px-[10px] font-medium cursor-pointer">Lowest</div>
+            <div class="btnhighest py-2 px-[10px] font-medium cursor-pointer">Highest</div>
+            <div class="btnsearch py-2 px-[10px] font-medium cursor-pointer">Search</div>
+            <div class="btnmore py-2 px-[10px] font-medium cursor-pointer">more price</div>
+            <div class="btnless py-2 px-[10px] font-medium cursor-pointer">less price</div>
+            <div class="h-2 hidden xl:inline-block xl:w-[50%] border-b border-b-white"></div>
+          </div>
+          <h2 class="text-[60px] text-center wilkysta">catalog</h2>
+          <div class="products w-10/12 xl:w-[1100px] mx-auto flex flex-wrap justify-center gap-[50px] lg:gap-[110px]">
+            <!-- write products boxs in js file -->
+          </div>
+        </div>
+        <!-- footer section -->
+        <footer class="my-[50px]">
+          <div class="sec1larg hidden md:flex justify-between items-start bg-gradient-to-b  from-black/60 to-[#47514a]/60 backdrop-blur-md  md:bg-black md:from-black md:to-black">
+            <div class="s1 flex flex-col gap-[10px] md:w-[30%] p-[20px] md:p-[50px]">
+              <div class="flex justify-between">
+                <a href="#" class="text-[18px] font-bold wilkysta"><h4>Contacts</h4></a>
+                <i class="ri-arrow-down-wide-line md:hidden"></i>
+              </div>
+              <div class="submenu1 flex md:flex flex-col justify-center gap-[15px]">
+                <a href="#"><span>-44-7871234567</span></a>
+                <a href="#"><span>plantsstore@gmail.com</span></a>
+                <a href="#"><span>Our social networks:</span></a>
+                <div class="social flex gap-[20px] text-[40px]">
+                  <i class="ri-telegram-2-fill"></i>
+                  <i class="ri-youtube-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div class="s2 flex flex-col gap-[10px] md:w-[30%] p-[20px] md:p-[50px]">
+              <div class="flex justify-between">
+                <a href="#" class="text-[18px] font-bold wilkysta"><h4>Catalog</h4></a>
+                <i class="ri-arrow-down-wide-line md:hidden"></i>
+              </div>
+              <div class="submenu2 flex md:flex flex-col justify-center gap-[15px]">
+                <a href="#"><span>Plantes</span></a>
+                <a href="#"><span>Plant Care Products</span></a>
+                <a href="#"><span>Pots and planters</span></a>
+              </div>
+            </div>
+            <div class="s3 flex flex-col gap-[10px] md:w-[30%] p-[20px] md:p-[50px]">
+              <div class="flex justify-between">
+                <a href="#" class="text-[18px] font-bold wilkysta"><h4>About store</h4></a>
+                <i class="ri-arrow-down-wide-line md:hidden"></i>
+              </div>
+              <div class="submenu3 flex md:flex flex-col justify-center gap-[15px]">
+                <a href="#"><span>Blog</span></a>
+                <a href="#"><span>QIA</span></a>
+                <a href="#"><span>Delivery and payment</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="sec1mobile md:hidden justify-between items-start bg-gradient-to-b  from-black/60 to-[#47514a]/60 backdrop-blur-md  md:bg-black md:from-black md:to-black">
+            <div class="s1 flex flex-col gap-[10px] md:w-[30%] p-[20px] md:p-[50px]">
+              <div class="flex justify-between cursor-pointer">
+                <h4 class="text-[18px] font-bold wilkysta">Contacts</h4>
+                <i class="ri-arrow-down-wide-line md:hidden"></i>
+              </div>
+              <div class="submenu1 hiden flex md:flex flex-col justify-center gap-[15px]">
+                <a href="#"><span>-44-7871234567</span></a>
+                <a href="#"><span>plantsstore@gmail.com</span></a>
+                <a href="#"><span>Our social networks:</span></a>
+                <div class="social flex gap-[20px] text-[40px]">
+                  <i class="ri-telegram-2-fill"></i>
+                  <i class="ri-youtube-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div class="s2 flex flex-col gap-[10px] md:w-[30%] p-[20px] md:p-[50px]">
+              <div class="flex justify-between cursor-pointer">
+                <h4 class="text-[18px] font-bold wilkysta">Catalog</h4>
+                <i class="ri-arrow-down-wide-line md:hidden"></i>
+              </div>
+              <div class="submenu2 hiden flex md:flex flex-col justify-center gap-[15px]">
+                <a href="#"><span>Plantes</span></a>
+                <a href="#"><span>Plant Care Products</span></a>
+                <a href="#"><span>Pots and planters</span></a>
+              </div>
+            </div>
+            <div class="s3 flex flex-col gap-[10px] md:w-[30%] p-[20px] md:p-[50px]">
+              <div class="flex justify-between cursor-pointer">
+                <h4 class="text-[18px] font-bold wilkysta">About store</h4>
+                <i class="ri-arrow-down-wide-line md:hidden"></i>
+              </div>
+              <div class="submenu3 hiden flex md:flex flex-col justify-center gap-[15px]">
+                <a href="#"><span>Blog</span></a>
+                <a href="#"><span>QIA</span></a>
+                <a href="#"><span>Delivery and payment</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="sec2 flex flex-col items-center gap-[20px] md:flex-row justify-around my-[50px]">
+            <a href="#">Privesy policy</a>
+            <a href="#">User agreement</a>
+            <a href="#">Terms of exchande and refand</a>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./remixicon/fonts/"></script>
+  </body>
+</html>
